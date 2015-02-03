@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
                        NSArray and NSDictionary has 'mutableCopy', it only apply their children.
                        I need to all NSDictionary and NSArray instance convert mutable things.
                        CFPropertyListCreateDeepCopy does not works with NSNull.
-                        
+
+                        Sorry, I do not provide examples now.
   s.homepage         = "https://github.com/kimjj81/MutableDeepCopy"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
