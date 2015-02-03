@@ -9,25 +9,22 @@
 
 Pod::Spec.new do |s|
   s.name             = "MutableDeepCopy"
-  s.version          = "1.0.0"
-  s.summary          = "MutableDeepCopy make all node mutable object in NSArray and NSDictionary."
+  s.version          = "0.1.0"
+  s.summary          = "A short description of MutableDeepCopy."
   s.description      = <<-DESC
-                       
+                       An optional longer description of MutableDeepCopy
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
-                       NSArray and NSDictionary has 'mutableCopy', it only apply their children.
-                       I need to all NSDictionary and NSArray instance convert mutable things.
-                       CFPropertyListCreateDeepCopy does not works with NSNull.
-                        
-  s.homepage         = "https://github.com/kimjj81/MutableDeepCopy"
+                       DESC
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MutableDeepCopy"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "KimJeongJin" => "kimjeongjin@gmail.com" }
-  s.source           = { :git => "https://github.com/kimjj81/MutableDeepCopy.git", :tag => s.version.to_s }
+  s.author           = { "KimJeongJin" => "kimjeongjin@ogqcorp.com" }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MutableDeepCopy.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '4.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
